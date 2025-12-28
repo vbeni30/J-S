@@ -21,7 +21,7 @@ export function InvitationHero() {
         className="absolute inset-0 z-0"
       >
         <Image
-          src="/images/j-s.png"
+          src="/images/j-s.webp"
           alt="Save the Date - John and Soliyana"
           fill
           priority
