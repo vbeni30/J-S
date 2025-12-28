@@ -62,6 +62,8 @@ export function EventDetails() {
             alt="John and Soliyana"
             fill
             className="object-cover brightness-75"
+            sizes="100vw"
+            quality={85}
             priority
           />
         </motion.div>
@@ -202,6 +204,8 @@ export function EventDetails() {
               src="/scenic-wedding-venue-landscape.webp"
               alt="Venue"
               fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              quality={80}
               className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
             />
             <div className="absolute inset-0 ring-1 ring-inset ring-border/30" />
@@ -221,6 +225,8 @@ export function EventDetails() {
             src="/elegant-wedding-portrait.webp"
             alt="Countdown"
             fill
+            sizes="100vw"
+            quality={60}
             className="object-cover opacity-25 blur-[2px]"
           />
         </motion.div>
@@ -260,9 +266,11 @@ export function EventDetails() {
       <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-background py-32">
         <motion.div style={{ y: useTransform(scrollYProgress, [0.92, 1], [-80, 0]) }} className="absolute inset-0">
           <Image
-            src="/happy-couple-laughing-wedding.webp"
+            src="/happy-couple-laughing-wedding.jpg"
             alt="Closing Photo"
             fill
+            sizes="100vw"
+            quality={60}
             className="object-cover grayscale opacity-8"
           />
         </motion.div>
