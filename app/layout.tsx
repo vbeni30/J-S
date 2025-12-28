@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     images: ["/cray-maxwell-_yeVwbiuoko-unsplash.jpg"], // Using the uploaded image for Twitter
   },
   metadataBase: new URL("https://j-s-2.vercel.app/"),
-  generator: "v0.app",
   viewport: {
     width: "device-width",
     initialScale: 1,
