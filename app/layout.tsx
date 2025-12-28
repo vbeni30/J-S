@@ -19,6 +19,27 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Wedding Invitation | John & Soliyana",
   description: "You are cordially invited to celebrate our wedding.",
+  openGraph: {
+    title: "Wedding Invitation | John & Soliyana",
+    description: "You are cordially invited to celebrate our wedding.",
+    url: "https://j-s-2.vercel.app/",
+    siteName: "Wedding Invitation",
+    type: "website",
+    images: [
+      {
+        url: "/cray-maxwell-_yeVwbiuoko-unsplash.jpg", // Using the uploaded image for OG
+        width: 1200,
+        height: 1200, // Match the square aspect ratio of the provided image
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wedding Invitation | John & Soliyana",
+    description: "You are cordially invited to celebrate our wedding.",
+    images: ["/cray-maxwell-_yeVwbiuoko-unsplash.jpg"], // Using the uploaded image for Twitter
+  },
+  metadataBase: new URL("https://j-s-2.vercel.app/"),
   generator: "v0.app",
   viewport: {
     width: "device-width",
