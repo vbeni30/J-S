@@ -58,7 +58,7 @@ export function EventDetails() {
           className="absolute inset-0"
         >
           <Image
-            src="/marius-muresan-ijVLicq-yII-unsplash.jpg"
+            src="/marius-muresan-ijVLicq-yII-unsplash.webp"
             alt="John and Soliyana"
             fill
             className="object-cover brightness-75"
@@ -199,7 +199,7 @@ export function EventDetails() {
             className="relative aspect-[3/4] w-full max-w-sm"
           >
             <Image
-              src="/scenic-wedding-venue-landscape.jpg"
+              src="/scenic-wedding-venue-landscape.webp"
               alt="Venue"
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
@@ -218,7 +218,7 @@ export function EventDetails() {
           className="absolute inset-0"
         >
           <Image
-            src="/happy-couple-laughing-wedding.jpg"
+            src="/elegant-wedding-portrait.webp"
             alt="Countdown"
             fill
             className="object-cover opacity-25 blur-[2px]"
@@ -260,7 +260,7 @@ export function EventDetails() {
       <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-background py-32">
         <motion.div style={{ y: useTransform(scrollYProgress, [0.92, 1], [-80, 0]) }} className="absolute inset-0">
           <Image
-            src="/happy-couple-laughing-wedding.jpg"
+            src="/happy-couple-laughing-wedding.webp"
             alt="Closing Photo"
             fill
             className="object-cover grayscale opacity-8"
